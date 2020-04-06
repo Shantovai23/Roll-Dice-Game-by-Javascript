@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Roll Dice</title>
+</head>
+
+<body class="bg-dark">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card card-body mt-4 text-center bg-light">
+
+                    <marquee behavior="" direction="" class="mb-4"><small>Play and enjoy</small></marquee>
+                    <h1 class="heading h1color">Roll Dice Game</h1>
+                    <h2 class=" heading h2color">Winning Score <strong class="text-danger"> 52+</strong></h2>
+                    <h3 class=" heading h3color">Chances Left<strong class="text-danger mx-2" id="show">7 </strong></h3>
+                    <hr>
+                    <br>
+
+                    <div class="row">
+                        <div class="col-6  ">
+                            <div class="card card-body border border-success ">
+                                <h2 id="dicee1">0</h2>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="card card-body border border-success ">
+                                <h2 id="dicee2">0</h2>
+                            </div>
+                        </div>
+
+                        <input class="btn btn-info mx-auto mt-4" type="submit" value="Roll Dice" id="roll-dice" >
+
+                    </div>
+                    <input class="btn btn-warning mx-auto mt-4" type="submit" value="Play Again" id="play-Again" >
+
+                    <hr>
+
+                    <h3 class=" d-inline" > Your Score is <span id="score" class="badge badge-danger">0</span> <h3>
+
+                    <h6 class="" id="need-msg">You Need More <span id="need" class="badge badge-success">50</span></h6>
+
+                    <img src="1.jpg" alt="img" class="img-fluid" id="win-img">
+
+                    <h3 id="win" class="text-success">You Win</h3>
+
+                     <img src="download.jpg" alt="dog" class="img-fluid " id="sorry-img" style="height: 170px;">
+
+                    <h3 class="text-center text-danger" id="lost">You Lost The Game</h3>
+
+
+
+
+                    <footer class="text-center mt-1">
+                        <small>CopyRight @ <a href="https://www.facebook.com/hasibulhasan.shanto.5494">Shanto</a></small>
+                     </footer>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
